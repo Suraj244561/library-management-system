@@ -1,23 +1,23 @@
-# 📚 Library Management System
+#  Library Management System
 
 A complete, production-ready Library Management System built in Java demonstrating enterprise-level design patterns and SOLID principles.
 
-## 🌟 Features
+##  Features
 
 ### Core Features
-- ✅ **Book Management** - Add, search, update, and manage books
-- ✅ **Patron Management** - Register members, track borrowing history
-- ✅ **Lending System** - Checkout, return, and fine calculation
-- ✅ **Availability Tracking** - Real-time book availability status
-- ✅ **Fine Management** - Automatic fine calculation for overdue books
+-  **Book Management** - Add, search, update, and manage books
+-  **Patron Management** - Register members, track borrowing history
+-  **Lending System** - Checkout, return, and fine calculation
+-  **Availability Tracking** - Real-time book availability status
+-  **Fine Management** - Automatic fine calculation for overdue books
 
 ### Advanced Features
-- 🚤 **Account Suspension** - Suspend patrons for outstanding fines
-- 📄 **Borrowing History** - Track all patron borrowing activities
-- 💵 **Fine Tracking** - Detailed fine calculations
-- 🔍 **Multiple Search Options** - Search by title, author, ISBN
+-  **Account Suspension** - Suspend patrons for outstanding fines
+-  **Borrowing History** - Track all patron borrowing activities
+-  **Fine Tracking** - Detailed fine calculations
+-  **Multiple Search Options** - Search by title, author, ISBN
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Java 8 or higher
@@ -37,7 +37,7 @@ javac -d bin -sourcepath src $(find src -name "*.java")
 java -cp bin com.library.App
 ```
 
-## 📚 Project Structure
+##  Project Structure
 
 ```
 src/com/library/
@@ -59,7 +59,7 @@ src/com/library/
 - **PatronService.java** - Manages patron/member operations
 - **LendingService.java** - Manages checkout, return, and fine calculation
 
-## 💫 Usage Examples
+##  Usage Examples
 
 ### Add Books
 ```java
@@ -85,7 +85,7 @@ LocalDate returnDate = LocalDate.now().plusDays(5);
 lendingService.returnBook(book, patron, returnDate);
 ```
 
-## 📚 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 ### OOP Principles
 - **Encapsulation** - Private fields with public getters/setters
@@ -99,17 +99,17 @@ lendingService.returnBook(book, patron, returnDate);
 - Availability Tracking: Real-time copy management
 - History Tracking: Complete borrowing history
 
-## 👨‍🐻 Author
+## Author
 
 **Suraj Yadav**
 - GitHub: [@Suraj244561](https://github.com/Suraj244561)
 - Email: [68324025+Suraj244561@users.noreply.github.com](mailto:68324025+Suraj244561@users.noreply.github.com)
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🙋 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
 1. Fork the repository
@@ -117,7 +117,7 @@ Contributions are welcome! Feel free to:
 3. Make your changes
 4. Submit a pull request
 
-## 😎 Next Steps
+##  Next Steps
 
 ### Future Enhancements
 - Add database integration (MySQL/PostgreSQL)
@@ -126,7 +126,7 @@ Contributions are welcome! Feel free to:
 - Create web UI (React/Vue)
 - Implement authentication (JWT)
 
-## 😭 Troubleshooting
+##  Troubleshooting
 
 ### Compilation Error
 ```bash
@@ -141,7 +141,7 @@ javac -d bin -sourcepath src $(find src -name "*.java")
 - Ensure all class files are in `bin` directory
 - Check the classpath: `java -cp bin com.library.App`
 
-## 📢 Support
+##  Support
 
 For issues or questions:
 1. Check the README thoroughly
@@ -150,6 +150,3 @@ For issues or questions:
 
 ---
 
-**Status**: ✅ Complete & Production-Ready  
-**Quality**: ⭐⭐⭐⭐⭐ Enterprise Grade  
-**Last Updated**: January 2026
