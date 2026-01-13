@@ -65,7 +65,7 @@ public class App {
         
         Book searchResult = bookService.searchByTitle("1984");
         if (searchResult != null) {
-            System.out.println("Found: " + searchResult);
+            System.out.println("✓ Found: " + searchResult);
         }
 
         // ===== 4. CHECKOUT BOOKS =====
@@ -77,7 +77,7 @@ public class App {
         lendingService.checkoutBook(book1, patron1, today);
         lendingService.checkoutBook(book2, patron1, today);
         lendingService.checkoutBook(book3, patron2, today);
-        lendingService.checkoutBook(book4, patron3, today.minusDays(20)); // Checked out 20 days ago
+        lendingService.checkoutBook(book4, patron3, today.minusDays(20));
 
         // ===== 5. DISPLAY PATRON INFORMATION =====
         System.out.println("\n[5] PATRON BORROWING STATUS");
@@ -97,9 +97,9 @@ public class App {
         System.out.println("\n[6] RETURNING BOOKS");
         System.out.println("-".repeat(60));
         
-        lendingService.returnBook(book1, patron1, today.plusDays(5)); // On time
-        lendingService.returnBook(book2, patron1, today.plusDays(20)); // 6 days overdue
-        lendingService.returnBook(book4, patron3, today); // 20 days overdue
+        lendingService.returnBook(book1, patron1, today.plusDays(5));
+        lendingService.returnBook(book2, patron1, today.plusDays(20));
+        lendingService.returnBook(book4, patron3, today);
 
         // ===== 7. DISPLAY FINE INFORMATION =====
         System.out.println("\n[7] FINE INFORMATION");
