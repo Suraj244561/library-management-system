@@ -103,7 +103,7 @@ lendingService.returnBook(book, patron, returnDate);
 
 **Suraj Yadav**
 - GitHub: [@Suraj244561](https://github.com/Suraj244561)
-- Email: [68324025+Suraj244561@users.noreply.github.com](mailto:68324025+Suraj244561@users.noreply.github.com)
+- Email: surajyadavx.in@gmail.com
 
 ##  License
 
